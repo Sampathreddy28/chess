@@ -2,16 +2,12 @@
     
     display: flex;
 }
-.rows{
-    
-    height: 1000px;
-    width: 215px;
 
-}
 .block{
     border: 2px solid black;
-     width: 215px;
-height: 215px;
+     width: 150px;
+     height: 150px;
+
 
 }
 
@@ -22,11 +18,11 @@ height: 215px;
     background-color: black;
 }
 .chess-piece2{
-    font-size: 180px;
+    font-size: 130px;
     color: black;
 
 }
 .chess-piece1{
-    font-size: 180px;
+    font-size: 130px;
     color: white;
 }
