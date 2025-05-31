@@ -1,0 +1,32 @@
+.container{
+    
+    display: flex;
+}
+.rows{
+    
+    height: 1000px;
+    width: 215px;
+
+}
+.block{
+    border: 2px solid black;
+     width: 215px;
+height: 215px;
+
+}
+
+.rows1 > .block:nth-child(odd) {
+  background-color: rgb(10, 0, 0);
+}
+.rows2 > .block:nth-child(even){
+    background-color: black;
+}
+.chess-piece2{
+    font-size: 180px;
+    color: black;
+
+}
+.chess-piece1{
+    font-size: 180px;
+    color: white;
+}
